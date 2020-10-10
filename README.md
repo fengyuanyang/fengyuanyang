@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=fengyuanyang&count_private=true&show_icons=true&theme=graywhite)
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=fengyuanyang&repo=JavaTDD)](https://github.com/fengyuanyang/JavaTDD)
+
 📫 Technology & Tools    
 <!--
 **fengyuanyang/fengyuanyang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
