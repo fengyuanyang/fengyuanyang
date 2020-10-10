@@ -7,21 +7,22 @@
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=2bbc8a)
 
-
+<!-- 
 <p align="center">
   <a href="https://github.com/fengyuanyang/JavaTDD/actions">
       <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
   </a>
-<!--   <a href="https://codecov.io/gh/fengyuanyang/JavaTDD">
+  <a href="https://codecov.io/gh/fengyuanyang/JavaTDD">
     <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
-  </a> -->
+  </a>
   <a href="https://github.com/anuraghazra/JavaTDD/issues">
     <img alt="Issues" src="https://img.shields.io/github/issues/fengyuanyang/JavaTDD?color=0088ff" />
   </a>
   <a href="https://github.com/fengyuanyang/JavaTDD/pulls">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/fengyuanyang/JavaTDD?color=0088ff" />
   </a>
-</p>
+</p> 
+-->
 
 ## &#x1f4c8; GitHub Stats
 <a href="https://github.com/fengyuanyang/">
