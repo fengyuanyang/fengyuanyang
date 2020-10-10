@@ -1,4 +1,18 @@
 ### Hi there 👋
+<p align="center">
+  <a href="https://github.com/fengyuanyang/JavaTDD/actions">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+  </a>
+<!--   <a href="https://codecov.io/gh/fengyuanyang/JavaTDD">
+    <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+  </a> -->
+  <a href="https://github.com/anuraghazra/JavaTDD/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/fengyuanyang/JavaTDD?color=0088ff" />
+  </a>
+  <a href="https://github.com/fengyuanyang/JavaTDD/pulls">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/fengyuanyang/JavaTDD?color=0088ff" />
+  </a>
+</p>
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=fengyuanyang&count_private=true&show_icons=true&theme=graywhite)
 
