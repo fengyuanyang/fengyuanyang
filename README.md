@@ -15,10 +15,9 @@
 </p>
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fengyuanyang&hide=javascript,html)](https://github.com/fengyuanyang/) 
-
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=fengyuanyang&count_private=true&show_icons=true&theme=graywhite)
+| | |
+| :--: | :--: |
+| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fengyuanyang&hide=javascript,html)](https://github.com/fengyuanyang/) | ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=fengyuanyang&count_private=true&show_icons=true&theme=graywhite) |
 
 
 
