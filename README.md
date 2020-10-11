@@ -21,6 +21,9 @@
   <a href="https://github.com/fengyuanyang/JavaTDD/pulls">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/fengyuanyang/JavaTDD?color=0088ff" />
   </a>
+  <a href="https://github.com/fengyuanyang/JavaTDD/pulls">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/fengyuanyang/JavaTDD?color=0088ff" />
+  </a>
 </p> 
 -->
 
@@ -35,6 +38,9 @@
 
 <a href="https://github.com/fengyuanyang/JavaTDD">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fengyuanyang&repo=JavaTDD&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
+<a href="https://github.com/fengyuanyang/katacoda-scenarios">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fengyuanyang&repo=katacoda-scenarios&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 
 <!-- Actual text -->
