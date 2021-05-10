@@ -36,6 +36,24 @@ CSS .left. ESS
 
 rectangle "Learn a Language" as LL <<$bProcess>><<behavior>> #Business
 BFK -down- LL
+
+rectangle "Java" as JAVA <<$bProcess>><<behavior>> #Business
+rectangle "Python" as PYTHON <<$bProcess>><<behavior>> #Business
+rectangle "GO" as GO <<$bProcess>><<behavior>> #Business
+rectangle "Ruby" as RUBY <<$bProcess>><<behavior>> #Business
+rectangle "C#" as CPLUS <<$bProcess>><<behavior>> #Business
+
+
+LL .right. JAVA
+JAVA .right. GO
+GO .right. CPLUS
+LL .left. PYTHON
+PYTHON .left. RUBY
+
+
+rectangle "Version Control System" as VCS <<$bProcess>><<behavior>> #Business
+LL -down- VCS
+
 'CI -right->> NAS
 'NAS -right->> V
 'V -right->> I
