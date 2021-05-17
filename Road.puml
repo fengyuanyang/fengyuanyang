@@ -6,13 +6,13 @@ sprite $bProcess jar:archimate/business-process
 sprite $aService jar:archimate/application-service
 sprite $aComponent jar:archimate/application-component
 
-rectangle "Backend"  as HC <<$bProcess>><<behavior>> #Business
-rectangle "Basic Front Knowledge" as BFK <<$bProcess>><<behavior>> #Business
-'rectangle "Capture Information"  as CI <<$bProcess>><<behavior>> #Business
-'rectangle "Notify\nAdditional Stakeholders" as NAS <<$bProcess>><<behavior>> #Business
-'rectangle "Validate" as V <<$bProcess>><<behavior>> #Business
-'rectangle "Investigate" as I <<$bProcess>><<behavior>> #Business
-'rectangle "Pay" as P <<$bProcess>><<behavior>> #Business
+rectangle "Backend" as HC #orange
+rectangle "Basic Front Knowledge" as BFK  #orange
+'rectangle "Capture Information"  as CI  #Business
+'rectangle "Notify\nAdditional Stakeholders" as NAS  #Business
+'rectangle "Validate" as V  #Business
+'rectangle "Investigate" as I  #Business
+'rectangle "Pay" as P  #Business
 
 
 HC -down- BFK
@@ -22,11 +22,11 @@ HC -down- BFK
 'HC *-down- I
 'HC *-down- P
 
-rectangle "HTML" as HTML <<$bProcess>><<behavior>> #Business
-rectangle "JavaScript" as JS <<$bProcess>><<behavior>> #Business
-rectangle "CSS" as CSS <<$bProcess>><<behavior>> #Business
-rectangle "DSS" as DSS <<$bProcess>><<behavior>> #Business
-rectangle "ESS" as ESS <<$bProcess>><<behavior>> #Business
+rectangle "HTML" as HTML  #Business
+rectangle "JavaScript" as JS  #Business
+rectangle "CSS" as CSS  #Business
+rectangle "DSS" as DSS  #Business
+rectangle "ESS" as ESS  #Business
 
 BFK .right. HTML
 HTML .right. JS
@@ -34,14 +34,14 @@ BFK .left. CSS
 ESS .up. DSS
 CSS .left. ESS
 
-rectangle "Learn a Language" as LL <<$bProcess>><<behavior>> #Business
+rectangle "Learn a Language" as LL  #orange
 BFK -down- LL
 
-rectangle "Java" as JAVA <<$bProcess>><<behavior>> #Business
-rectangle "Python" as PYTHON <<$bProcess>><<behavior>> #Business
-rectangle "GO" as GO <<$bProcess>><<behavior>> #Business
-rectangle "Ruby" as RUBY <<$bProcess>><<behavior>> #Business
-rectangle "C#" as CPLUS <<$bProcess>><<behavior>> #Business
+rectangle "Java" as JAVA  #Business
+rectangle "Python" as PYTHON  #Business
+rectangle "GO" as GO  #Business
+rectangle "Ruby" as RUBY  #Business
+rectangle "C#" as CPLUS  #Business
 
 
 LL .right. JAVA
@@ -50,52 +50,81 @@ GO .right. CPLUS
 LL .left. PYTHON
 PYTHON .left. RUBY
 
-
-rectangle "Version Control System" as VCS <<$bProcess>><<behavior>> #Business
+rectangle "Version Control \nSystem" as VCS  #orange
 LL -down- VCS
 
-'CI -right->> NAS
-'NAS -right->> V
-'V -right->> I
-'I -right->> P
-'
-'rectangle "Scanning" as scanning <<$aService>><<behavior>> #Application
-'rectangle "Customer admnistration" as customerAdministration <<$aService>><<behavior>> #Application
-'rectangle "Claims admnistration" as claimsAdministration <<$aService>><<behavior>> #Application
-'rectangle Printing <<$aService>><<behavior>> #Application
-'rectangle Payment <<$aService>><<behavior>> #Application
-'
-'scanning -up-> CI
-'customerAdministration  -up-> CI
-'claimsAdministration -up-> NAS
-'claimsAdministration -up-> V
-'claimsAdministration -up-> I
-'Payment -up-> P
-'
-'Printing -up-> V
-'Printing -up-> P
-'
-'rectangle "Document\nManagement\nSystem" as DMS <<$aComponent>> #Application
-'rectangle "General\nCRM\nSystem" as CRM <<$aComponent>>  #Application
-'rectangle "Home & Away\nPolicy\nAdministration" as HAPA <<$aComponent>> #Application
-'rectangle "Home & Away\nFinancial\nAdministration" as HFPA <<$aComponent>>  #Application
-'
-'DMS .up.|> scanning
-'DMS .up.|> Printing
-'CRM .up.|> customerAdministration
-'HAPA .up.|> claimsAdministration
-'HFPA .up.|> Payment
-'
-'legend left
-'Example from the "Archisurance case study" (OpenGroup).
-'See
-'====
+rectangle "Bitbucket" as BIT  #Business
+rectangle "Github" as HUB  #Business
+rectangle "Gitlab" as LAB  #Business
+BIT .left. VCS
+VCS .left. HUB
+HUB .left. LAB
+
+
+rectangle "Relational Database" as RD  #orange
+VCS -down- RD
+
+rectangle "NoSQL Databases" as NOD  #orange
+RD -down- NOD
+
+rectangle "More about Database" as MAD  #orange
+NOD -down- MAD
+
+rectangle "Learn about APIs" as LAA  #orange
+MAD -down- LAA
+
+rectangle "Caching" as CACHE  #orange
+LAA -down- CACHE
+
+rectangle "Web Security Knowledge" as WSK  #orange
+CACHE -down- WSK
+
+rectangle "CI/CD" as CICD  #orange
+WSK -down- CICD
+
+rectangle "Design and Development Principles" as DADP  #orange
+CICD -down- DADP
+
+rectangle "Architectural Patterns" as AP  #orange
+DADP -down- AP
+
+
+rectangle "Search Engine" as SE  #orange
+AP -down- SE
+
+rectangle "Message Brokers" as MB  #orange
+SE -down- MB
+
+rectangle "Containerization vs Virtualization" as CV  #orange
+MB -down- CV
+
+rectangle "GraphQL" as GQL  #orange
+CV -down- GQL
+
+rectangle "Graph Databases" as GD  #orange
+GQL -down- GD
+
+rectangle "WebSocket" as WS  #orange
+GD -down- WS
+
+rectangle "Web Servers" as WSERVER  #orange
+WS -down- WSERVER
+
+rectangle "Building for scale" as BFS  #orange
+WSERVER -down- BFS
+
+
+legend left
+Example from the "Archisurance case study" (OpenGroup).
+See
+====
+this roadmap is from https://roadmap.sh/backend
 '<$bProcess> :business process
 '====
 '<$aService> : application service
 '====
 '<$aComponent> : application component
-'endlegend
+endlegend
 
 
 @enduml
